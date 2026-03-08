@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter - Suggi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="memories.html">Memories</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="letter.html" class="active">Letter</a>
+    </nav>
+    <div class="letter-container">
+        <div class="letter-card">
+            <h2>My Love Letter to You</h2>
+            <div id="typed-text" class="typed-text"></div>
+        </div>
+        <div class="counter">
+            <h3>Days with Suggi ❤️</h3>
+            <div id="days-counter">Calculating...</div>
+        </div>
+        <button class="surprise-button" onclick="showSurprise()">One More Surprise</button>
+        <div id="surprise-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-popup" onclick="closeSurprise()">&times;</span>
+                <p>Suggi, you are the most beautiful part of my life ❤️</p>
+            </div>
+        </div>
+    </div>
+    <div class="time-section">
+        <div class="time-card">
+            <h2>Time Since I Met Suggi ❤️</h2>
+            <div id="time-counter" class="time-counter">
+                Calculating...
+            </div>
+            <p class="romantic-message">Every second with you is my favorite moment.</p>
+        </div>
+        <div class="floating-hearts">
+            <div class="heart">❤️</div>
+            <div class="heart">💖</div>
+            <div class="heart">💕</div>
+            <div class="heart">💗</div>
+            <div class="heart">💓</div>
+        </div>
+    </div>
+    <div class="music-section">
+        <h1>Songs That Remind Me of You 🎵</h1>
+        <div class="music-player">
+            <div class="song-info">
+                <h3 id="song-title">Perfect – Ed Sheeran</h3>
+            </div>
+            <audio id="audio-player" controls>
+                <source src="music/perfect.mp3" type="audio/mpeg">
+                <source src="music/until-i-found-you.mp3" type="audio/mpeg">
+                <source src="music/yellow.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="controls">
+                <button onclick="prevSong()">⏮️</button>
+                <button onclick="playPause()">▶️</button>
+                <button onclick="nextSong()">⏭️</button>
+            </div>
+        </div>
+    </div>
+    <div class="reasons-section">
+        <h1>20 Reasons I Love You ❤️</h1>
+        <div class="reasons-list">
+            <div class="reason">❤️ Your smile</div>
+            <div class="reason">❤️ Your kindness</div>
+            <div class="reason">❤️ The way you understand me</div>
+            <div class="reason">❤️ The way you make ordinary moments special</div>
+            <div class="reason">❤️ Your intelligence</div>
+            <div class="reason">❤️ Your sense of humor</div>
+            <div class="reason">❤️ How you care about others</div>
+            <div class="reason">❤️ Your creativity</div>
+            <div class="reason">❤️ The way you dance</div>
+            <div class="reason">❤️ Your patience</div>
+            <div class="reason">❤️ How you inspire me</div>
+            <div class="reason">❤️ Your strength</div>
+            <div class="reason">❤️ The way you laugh</div>
+            <div class="reason">❤️ Your compassion</div>
+            <div class="reason">❤️ How you make me feel safe</div>
+            <div class="reason">❤️ Your dreams and ambitions</div>
+            <div class="reason">❤️ The way you love</div>
+            <div class="reason">❤️ Your uniqueness</div>
+            <div class="reason">❤️ How you complete me</div>
+            <div class="reason">❤️ Everything about you</div>
+        </div>
+    </div>
+    <div class="ending-message">I Love You Suggi ❤️</div>
+    <script src="script.js"></script>
+</body>
+</html>

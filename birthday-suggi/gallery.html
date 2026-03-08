@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggi's Journey - Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="memories.html">Memories</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="letter.html">Letter</a>
+    </nav>
+    <div class="gallery">
+        <div class="gallery-grid">
+            <img src="photos/suggi1.jpg" alt="Suggi Journey 1" onclick="openLightbox(this)">
+            <img src="photos/suggi2.jpg" alt="Suggi Journey 2" onclick="openLightbox(this)">
+            <img src="photos/suggi3.jpg" alt="Suggi Journey 3" onclick="openLightbox(this)">
+            <img src="photos/suggi4.jpg" alt="Suggi Journey 4" onclick="openLightbox(this)">
+            <img src="photos/suggi5.jpg" alt="Suggi Journey 5" onclick="openLightbox(this)">
+            <img src="photos/suggi6.jpg" alt="Suggi Journey 6" onclick="openLightbox(this)">
+            <img src="photos/suggi7.jpg" alt="Suggi Journey 7" onclick="openLightbox(this)">
+            <img src="photos/suggi8.jpg" alt="Suggi Journey 8" onclick="openLightbox(this)">
+            <img src="photos/suggi9.jpg" alt="Suggi Journey 9" onclick="openLightbox(this)">
+            <img src="photos/suggi10.jpg" alt="Suggi Journey 10" onclick="openLightbox(this)">
+            <img src="photos/suggi11.jpg" alt="Suggi Journey 11" onclick="openLightbox(this)">
+            <img src="photos/suggi12.jpg" alt="Suggi Journey 12" onclick="openLightbox(this)">
+            <img src="photos/suggi13.jpg" alt="Suggi Journey 13" onclick="openLightbox(this)">
+            <img src="photos/suggi14.jpg" alt="Suggi Journey 14" onclick="openLightbox(this)">
+            <img src="photos/suggi15.jpg" alt="Suggi Journey 15" onclick="openLightbox(this)">
+            <img src="photos/suggi16.jpg" alt="Suggi Journey 16" onclick="openLightbox(this)">
+            <img src="photos/suggi17.jpg" alt="Suggi Journey 17" onclick="openLightbox(this)">
+            <img src="photos/suggi18.jpg" alt="Suggi Journey 18" onclick="openLightbox(this)">
+            <img src="photos/suggi19.jpg" alt="Suggi Journey 19" onclick="openLightbox(this)">
+            <img src="photos/suggi20.jpg" alt="Suggi Journey 20" onclick="openLightbox(this)">
+            <img src="photos/suggi21.jpg" alt="Suggi Journey 21" onclick="openLightbox(this)">
+            <img src="photos/suggi22.jpg" alt="Suggi Journey 22" onclick="openLightbox(this)">
+            <img src="photos/suggi23.jpg" alt="Suggi Journey 23" onclick="openLightbox(this)">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+    <div class="quote">"From childhood memories to the amazing person you are today"</div>
+    <button class="next-button" onclick="window.location.href='memories.html'">View Our Memories</button>
+    <script src="script.js"></script>
+</body>
+</html>
